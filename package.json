@@ -1,7 +1,7 @@
 {
   "name": "CyrefJS",
   "version": "0.1.0",
-  "description": "A JavaScript utility library",
+  "description": "A Java And Type Script utility library",
   "type": "module",
   "main": "./src/index.js",
   "scripts": {
