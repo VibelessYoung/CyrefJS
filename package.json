@@ -1,0 +1,11 @@
+{
+  "name": "CyrefJS",
+  "version": "0.1.0",
+  "description": "A JavaScript utility library",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  }
+}
