@@ -1,14 +1,17 @@
 {
-  "name": "CyrefJS",
+  "name": "cyrefjs",
   "version": "0.1.0",
-  "description": "A Java And Type Script utility library",
+  "description": "A JavaScript and TypeScript utility library",
   "type": "module",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "vitest",
     "test:watch": "vitest --watch"
   },
   "devDependencies": {
+    "typescript": "^7.0.2",
     "vitest": "^5.0.0"
   }
 }
