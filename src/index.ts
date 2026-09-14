@@ -7,4 +7,5 @@ export {
   unique,
   flatten,
   flattenDeep,
+  groupBy,
 } from "./array/index.js";
