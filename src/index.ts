@@ -5,4 +5,5 @@ export {
   intersection,
   union,
   unique,
+  flatten,
 } from "./array/index.js";
