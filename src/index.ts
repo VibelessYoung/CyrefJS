@@ -8,4 +8,5 @@ export {
   flatten,
   flattenDeep,
   groupBy,
+  keyBy,
 } from "./array/index.js";
