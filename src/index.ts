@@ -9,4 +9,5 @@ export {
   flattenDeep,
   groupBy,
   keyBy,
+  partition,
 } from "./array/index.js";
