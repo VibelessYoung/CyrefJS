@@ -4,4 +4,5 @@ export {
   difference,
   intersection,
   union,
+  unique,
 } from "./array/index.js";
