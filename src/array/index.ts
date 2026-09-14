@@ -9,3 +9,4 @@ export { flattenDeep } from "./flattenDeep.js";
 export { groupBy } from "./groupBy.js";
 export { keyBy } from "./keyBy.js";
 export { partition } from "./partition.js";
+export { zip } from "./zip.js";

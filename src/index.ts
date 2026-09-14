@@ -10,4 +10,5 @@ export {
   groupBy,
   keyBy,
   partition,
+  zip,
 } from "./array/index.js";
