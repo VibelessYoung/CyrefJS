@@ -6,4 +6,5 @@ export {
   union,
   unique,
   flatten,
+  flattenDeep,
 } from "./array/index.js";
