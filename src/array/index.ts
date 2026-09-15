@@ -15,3 +15,4 @@ export { last } from "./last.js";
 export { take } from "./take.js";
 export { takeRight } from "./takeRight.js";
 export { drop } from "./drop.js";
+export { dropRight } from "./dropRight.js";
