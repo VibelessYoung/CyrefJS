@@ -11,4 +11,5 @@ export {
   keyBy,
   partition,
   zip,
+  first,
 } from "./array/index.js";
