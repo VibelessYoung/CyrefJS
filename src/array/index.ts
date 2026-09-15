@@ -11,3 +11,4 @@ export { keyBy } from "./keyBy.js";
 export { partition } from "./partition.js";
 export { zip } from "./zip.js";
 export { first } from "./first.js";
+export { last } from "./last.js";

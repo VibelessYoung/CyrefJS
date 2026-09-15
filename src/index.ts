@@ -12,4 +12,5 @@ export {
   partition,
   zip,
   first,
+  last,
 } from "./array/index.js";
