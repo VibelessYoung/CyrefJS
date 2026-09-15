@@ -14,4 +14,5 @@ export {
   first,
   last,
   take,
+  takeRight,
 } from "./array/index.js";

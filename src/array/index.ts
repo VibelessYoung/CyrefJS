@@ -13,3 +13,4 @@ export { zip } from "./zip.js";
 export { first } from "./first.js";
 export { last } from "./last.js";
 export { take } from "./take.js";
+export { takeRight } from "./takeRight.js";
