@@ -17,3 +17,4 @@ export { takeRight } from "./takeRight.js";
 export { drop } from "./drop.js";
 export { dropRight } from "./dropRight.js";
 export { sample } from "./sample.js";
+export { shuffle } from "./shuffle.js";

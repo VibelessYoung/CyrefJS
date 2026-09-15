@@ -18,4 +18,5 @@ export {
   drop,
   dropRight,
   sample,
+  shuffle,
 } from "./array/index.js";
