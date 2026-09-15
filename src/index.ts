@@ -13,4 +13,5 @@ export {
   zip,
   first,
   last,
+  take,
 } from "./array/index.js";
