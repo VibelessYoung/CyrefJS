@@ -11,6 +11,7 @@ export {
   keyBy,
   partition,
   zip,
+  unzip,
   first,
   last,
   take,
