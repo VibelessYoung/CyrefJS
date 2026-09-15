@@ -17,4 +17,5 @@ export {
   takeRight,
   drop,
   dropRight,
+  sample,
 } from "./array/index.js";
