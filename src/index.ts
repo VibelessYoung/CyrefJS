@@ -32,4 +32,5 @@ export {
   mapValues,
   mapKeys,
   filterObject,
+  invert,
 } from "./object/index.js";
