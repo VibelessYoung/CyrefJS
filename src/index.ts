@@ -31,4 +31,5 @@ export {
   defaults,
   mapValues,
   mapKeys,
+  filterObject,
 } from "./object/index.js";
