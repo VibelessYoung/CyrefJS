@@ -8,3 +8,4 @@ export { defaults } from "./defaults.js";
 export { mapValues } from "./mapValues.js";
 export { mapKeys } from "./mapKeys.js";
 export { filterObject } from "./filterObject.js";
+export { invert } from "./invert.js";
