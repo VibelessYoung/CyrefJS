@@ -6,3 +6,4 @@ export { has } from "./has.js";
 export { merge } from "./merge.js";
 export { defaults } from "./defaults.js";
 export { mapValues } from "./mapValues.js";
+export { mapKeys } from "./mapKeys.js";

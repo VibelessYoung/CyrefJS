@@ -30,4 +30,5 @@ export {
   merge,
   defaults,
   mapValues,
+  mapKeys,
 } from "./object/index.js";
