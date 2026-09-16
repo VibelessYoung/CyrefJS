@@ -21,4 +21,4 @@ export {
   sample,
   shuffle,
 } from "./array/index.js";
-export { pick, omit, get, set } from "./object/index.js";
+export { pick, omit, get, set, has } from "./object/index.js";
