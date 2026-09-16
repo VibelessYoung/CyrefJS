@@ -21,4 +21,13 @@ export {
   sample,
   shuffle,
 } from "./array/index.js";
-export { pick, omit, get, set, has, merge, defaults } from "./object/index.js";
+export {
+  pick,
+  omit,
+  get,
+  set,
+  has,
+  merge,
+  defaults,
+  mapValues,
+} from "./object/index.js";
