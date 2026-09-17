@@ -40,4 +40,5 @@ export {
   capitalizeWords,
   camelCase,
   pascalCase,
+  kebabCase,
 } from "./string/index.js";
