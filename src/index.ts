@@ -41,4 +41,5 @@ export {
   camelCase,
   pascalCase,
   kebabCase,
+  snakeCase,
 } from "./string/index.js";

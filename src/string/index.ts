@@ -3,3 +3,4 @@ export { capitalizeWords } from "./capitalizeWords.js";
 export { camelCase } from "./camelCase.js";
 export { pascalCase } from "./pascalCase.js";
 export { kebabCase } from "./kebabCase.js";
+export { snakeCase } from "./snakeCase.js";
