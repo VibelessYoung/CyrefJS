@@ -33,4 +33,5 @@ export {
   mapKeys,
   filterObject,
   invert,
+  deepClone,
 } from "./object/index.js";
