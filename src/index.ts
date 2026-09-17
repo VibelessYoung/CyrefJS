@@ -35,4 +35,4 @@ export {
   invert,
   deepClone,
 } from "./object/index.js";
-export { capitalize } from "./string/index.js";
+export { capitalize, capitalizeWords } from "./string/index.js";
