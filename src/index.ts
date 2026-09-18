@@ -46,4 +46,5 @@ export {
   truncate,
   pad,
   reverse,
+  slugify,
 } from "./string/index.js";
