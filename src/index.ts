@@ -47,4 +47,5 @@ export {
   pad,
   reverse,
   slugify,
+  removeWhitespace,
 } from "./string/index.js";
