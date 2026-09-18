@@ -59,3 +59,4 @@ export {
   percentage,
   lerp,
 } from "./number/index.js";
+export { isArray } from "./type/index.js";
