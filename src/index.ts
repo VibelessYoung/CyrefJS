@@ -48,4 +48,5 @@ export {
   reverse,
   slugify,
   removeWhitespace,
+  normalizeWhitespace,
 } from "./string/index.js";

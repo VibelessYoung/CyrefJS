@@ -10,3 +10,4 @@ export { pad } from "./pad.js";
 export { reverse } from "./reverse.js";
 export { slugify } from "./slugify.js";
 export { removeWhitespace } from "./removeWhitespace.js";
+export { normalizeWhitespace } from "./normalizeWhitespace.js";
