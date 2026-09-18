@@ -50,4 +50,4 @@ export {
   removeWhitespace,
   normalizeWhitespace,
 } from "./string/index.js";
-export { clamp, randomInt, roundTo, floorTo } from "./number/index.js";
+export { clamp, randomInt, roundTo, floorTo, ceilTo } from "./number/index.js";
