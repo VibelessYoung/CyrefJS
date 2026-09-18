@@ -44,4 +44,5 @@ export {
   snakeCase,
   constantCase,
   truncate,
+  pad,
 } from "./string/index.js";

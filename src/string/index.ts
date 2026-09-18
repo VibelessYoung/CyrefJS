@@ -6,3 +6,4 @@ export { kebabCase } from "./kebabCase.js";
 export { snakeCase } from "./snakeCase.js";
 export { constantCase } from "./constantCase.js";
 export { truncate } from "./truncate.js";
+export { pad } from "./pad.js";
