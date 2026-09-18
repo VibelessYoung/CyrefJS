@@ -45,4 +45,5 @@ export {
   constantCase,
   truncate,
   pad,
+  reverse,
 } from "./string/index.js";

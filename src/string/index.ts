@@ -7,3 +7,4 @@ export { snakeCase } from "./snakeCase.js";
 export { constantCase } from "./constantCase.js";
 export { truncate } from "./truncate.js";
 export { pad } from "./pad.js";
+export { reverse } from "./reverse.js";
