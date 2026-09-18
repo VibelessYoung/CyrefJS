@@ -57,4 +57,5 @@ export {
   floorTo,
   ceilTo,
   percentage,
+  lerp,
 } from "./number/index.js";
