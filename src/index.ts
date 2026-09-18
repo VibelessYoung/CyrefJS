@@ -43,4 +43,5 @@ export {
   kebabCase,
   snakeCase,
   constantCase,
+  truncate,
 } from "./string/index.js";
