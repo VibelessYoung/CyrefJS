@@ -70,4 +70,5 @@ export {
   isNull,
   isUndefined,
   isNil,
+  isDate,
 } from "./type/index.js";
