@@ -73,3 +73,4 @@ export {
   isDate,
   isRegExp,
 } from "./type/index.js";
+export { once } from "./function/index.js";
