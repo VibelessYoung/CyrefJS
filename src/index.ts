@@ -68,4 +68,5 @@ export {
   isBoolean,
   isFunction,
   isNull,
+  isUndefined,
 } from "./type/index.js";
