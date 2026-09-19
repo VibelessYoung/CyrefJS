@@ -1,11 +1,3 @@
-export function isObject(
-  value: unknown,
-): value is Record<PropertyKey, unknown> {
-  if (value === null || typeof value !== "object") {
-    return false;
-  }
-
-  const prototype = Object.getPrototypeOf(value);
-
-  return prototype === Object.prototype || prototype === null;
+export function isObject(value: unknown): value is object {
+  return value !== null && typeof value === "object";
 }
