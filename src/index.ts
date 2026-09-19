@@ -67,4 +67,5 @@ export {
   isNumber,
   isBoolean,
   isFunction,
+  isNull,
 } from "./type/index.js";
