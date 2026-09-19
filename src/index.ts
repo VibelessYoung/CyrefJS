@@ -59,4 +59,10 @@ export {
   percentage,
   lerp,
 } from "./number/index.js";
-export { isArray, isObject, isPlainObject, isString } from "./type/index.js";
+export {
+  isArray,
+  isObject,
+  isPlainObject,
+  isString,
+  isNumber,
+} from "./type/index.js";
