@@ -69,4 +69,5 @@ export {
   isFunction,
   isNull,
   isUndefined,
+  isNil,
 } from "./type/index.js";

@@ -7,3 +7,4 @@ export { isBoolean } from "./isBoolean.js";
 export { isFunction } from "./isFunction.js";
 export { isNull } from "./isNull.js";
 export { isUndefined } from "./isUndefined.js";
+export { isNil } from "./isNil.js";
