@@ -71,4 +71,5 @@ export {
   isUndefined,
   isNil,
   isDate,
+  isRegExp,
 } from "./type/index.js";

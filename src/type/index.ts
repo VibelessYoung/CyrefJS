@@ -9,3 +9,4 @@ export { isNull } from "./isNull.js";
 export { isUndefined } from "./isUndefined.js";
 export { isNil } from "./isNil.js";
 export { isDate } from "./isDate.js";
+export { isRegExp } from "./isRegExp.js";
