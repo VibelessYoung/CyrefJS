@@ -65,4 +65,5 @@ export {
   isPlainObject,
   isString,
   isNumber,
+  isBoolean,
 } from "./type/index.js";

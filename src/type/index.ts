@@ -3,3 +3,4 @@ export { isObject } from "./isObject.js";
 export { isPlainObject } from "./isPlainObject.js";
 export { isString } from "./isString.js";
 export { isNumber } from "./isNumber.js";
+export { isBoolean } from "./isBoolean.js";
