@@ -84,4 +84,5 @@ export {
   partial,
   memoize,
   debounce,
+  throttle,
 } from "./function/index.js";

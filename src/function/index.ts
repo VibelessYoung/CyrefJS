@@ -8,3 +8,4 @@ export { curry } from "./curry.js";
 export { partial } from "./partial.js";
 export { memoize } from "./memoize.js";
 export { debounce } from "./debounce.js";
+export { throttle } from "./throttle.js";
