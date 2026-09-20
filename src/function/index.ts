@@ -6,3 +6,4 @@ export { compose } from "./compose.js";
 export { pipe } from "./pipe.js";
 export { curry } from "./curry.js";
 export { partial } from "./partial.js";
+export { memoize } from "./memoize.js";

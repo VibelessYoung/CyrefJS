@@ -82,4 +82,5 @@ export {
   pipe,
   curry,
   partial,
+  memoize,
 } from "./function/index.js";
