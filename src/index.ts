@@ -83,4 +83,5 @@ export {
   curry,
   partial,
   memoize,
+  debounce,
 } from "./function/index.js";
