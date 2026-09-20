@@ -81,4 +81,5 @@ export {
   compose,
   pipe,
   curry,
+  partial,
 } from "./function/index.js";
