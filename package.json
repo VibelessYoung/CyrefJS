@@ -1,6 +1,6 @@
 {
   "name": "cyrefjs",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "description": "A JavaScript and TypeScript utility library",
   "type": "module",
   "main": "./dist/index.js",
