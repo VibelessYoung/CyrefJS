@@ -3,3 +3,4 @@ export { startOfDay } from "./startOfDay.js";
 export { endOfDay } from "./endOfDay.js";
 export { addDays } from "./addDays.js";
 export { differenceInDays } from "./differenceInDays.js";
+export { isBefore } from "./isBefore.js";
