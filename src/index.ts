@@ -86,4 +86,10 @@ export {
   debounce,
   throttle,
 } from "./function/index.js";
-export { isValidDate, startOfDay, endOfDay, addDays } from "./date/index.js";
+export {
+  isValidDate,
+  startOfDay,
+  endOfDay,
+  addDays,
+  differenceInDays,
+} from "./date/index.js";
