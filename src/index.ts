@@ -93,4 +93,5 @@ export {
   addDays,
   differenceInDays,
   isBefore,
+  isAfter,
 } from "./date/index.js";
