@@ -95,3 +95,4 @@ export {
   isBefore,
   isAfter,
 } from "./date/index.js";
+export { parseQuery } from "./url/index.js";
