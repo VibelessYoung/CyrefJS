@@ -73,4 +73,11 @@ export {
   isDate,
   isRegExp,
 } from "./type/index.js";
-export { once, noop, identity, negate, compose } from "./function/index.js";
+export {
+  once,
+  noop,
+  identity,
+  negate,
+  compose,
+  pipe,
+} from "./function/index.js";
