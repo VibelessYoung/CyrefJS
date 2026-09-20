@@ -80,4 +80,5 @@ export {
   negate,
   compose,
   pipe,
+  curry,
 } from "./function/index.js";
