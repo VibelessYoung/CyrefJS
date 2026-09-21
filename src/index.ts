@@ -100,4 +100,5 @@ export {
   buildQuery,
   getQueryParam,
   setQueryParam,
+  removeQueryParam,
 } from "./url/index.js";
