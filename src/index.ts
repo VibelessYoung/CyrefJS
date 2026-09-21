@@ -95,4 +95,9 @@ export {
   isBefore,
   isAfter,
 } from "./date/index.js";
-export { parseQuery, buildQuery, getQueryParam } from "./url/index.js";
+export {
+  parseQuery,
+  buildQuery,
+  getQueryParam,
+  setQueryParam,
+} from "./url/index.js";
