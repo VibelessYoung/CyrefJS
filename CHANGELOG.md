@@ -1,55 +1,71 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to CyrefJS are documented in this file.
 
-The format is based on Keep a Changelog,
-and this project follows Semantic Versioning.
+This project follows [Semantic Versioning](https://semver.org/), and releases are published through the project's automated release workflow.
 
-## [1.38.0]
+## Added
 
-### Changed
+- New utility functions and helpers.
+- New utility categories and modules.
+- New TypeScript type definitions and improvements.
+- New tests covering utility behavior and edge cases.
+- New documentation, examples, and developer resources.
+- Improvements to the package API and developer experience.
 
-- Updated the package version to 1.38.0.
-- Continued package and release workflow improvements.
+## Changed
 
-## [1.37.0]
-
-### Added
-
-- Automated npm publishing through GitHub Actions.
-- npm Trusted Publishing with GitHub Actions OIDC.
-- Continuous integration across Node.js 20, 22, and 24.
-- Open-source contribution and security documentation.
-- GitHub issue and pull request templates.
-
-### Changed
-
-- Renamed the npm package to `@cyref/js`.
-- Improved package metadata and release configuration.
-
-## [1.36.0]
-
-### Added
-
-- Current utility library release.
-- Array utilities.
-- Date utilities.
-- Function utilities.
-- Number utilities.
-- Object utilities.
-- String utilities.
-- Type utilities.
-- URL utilities.
-- Validation utilities.
-
-### Changed
-
+- Improved existing utility implementations.
+- Improved TypeScript typings and type safety.
 - Improved package structure and API organization.
+- Improved build and release configuration.
+- Improved CI and automated publishing workflows.
+- Updated dependencies when required.
+- Improved documentation and project metadata.
+
+## Fixed
+
+- Fixed bugs and incorrect utility behavior.
+- Fixed edge cases and unexpected input handling.
+- Fixed TypeScript type issues.
+- Fixed build and package configuration issues.
+- Fixed CI and release workflow issues.
+
+## Removed
+
+- Removed deprecated or unnecessary functionality.
+- Removed outdated project configuration.
+- Removed obsolete dependencies or files.
+
+## Security
+
+- Security-related fixes and improvements are documented here.
+- Potential security issues should be reported according to the project's security policy.
+
+## Release Process
+
+CyrefJS releases are managed through GitHub Actions.
+
+A release is created by pushing a version tag following this format:
+
+```text
+vMAJOR.MINOR.PATCH
+```
+
+For example:
+
+```text
+v1.39.0
+```
+
+The release workflow verifies the package version, runs the project's quality checks, builds the package, publishes it to npm, and creates a corresponding GitHub Release.
 
 ## Versioning
 
-CyrefJS follows Semantic Versioning:
+CyrefJS follows [Semantic Versioning](https://semver.org/):
 
-- PATCH: Bug fixes and backwards-compatible corrections.
-- MINOR: New backwards-compatible functionality.
-- MAJOR: Breaking API changes.
+- **MAJOR** — Breaking changes.
+- **MINOR** — New backwards-compatible functionality.
+- **PATCH** — Backwards-compatible bug fixes and corrections.
+
+For detailed release information, see the GitHub Releases page.
