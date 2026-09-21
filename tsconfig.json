@@ -1,32 +1,32 @@
 {
   "compilerOptions": {
-    /* Project */
     "target": "ES2020",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
 
-    /* Paths */
     "rootDir": "./src",
     "outDir": "./dist",
 
-    /* Type Checking */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
 
-    /* Output */
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
 
-    /* Modules */
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
 
-    /* Safety */
     "noEmitOnError": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist", "tests"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests"
+  ]
 }

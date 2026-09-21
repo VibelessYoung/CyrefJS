@@ -1,14 +1,90 @@
 {
   "name": "cyrefjs",
   "version": "1.36.0",
-  "description": "A JavaScript and TypeScript utility library",
+  "description": "A JavaScript and TypeScript library",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./array": {
+      "types": "./dist/array/index.d.ts",
+      "import": "./dist/array/index.js"
+    },
+    "./date": {
+      "types": "./dist/date/index.d.ts",
+      "import": "./dist/date/index.js"
+    },
+    "./function": {
+      "types": "./dist/function/index.d.ts",
+      "import": "./dist/function/index.js"
+    },
+    "./number": {
+      "types": "./dist/number/index.d.ts",
+      "import": "./dist/number/index.js"
+    },
+    "./object": {
+      "types": "./dist/object/index.d.ts",
+      "import": "./dist/object/index.js"
+    },
+    "./string": {
+      "types": "./dist/string/index.d.ts",
+      "import": "./dist/string/index.js"
+    },
+    "./type": {
+      "types": "./dist/type/index.d.ts",
+      "import": "./dist/type/index.js"
+    },
+    "./url": {
+      "types": "./dist/url/index.d.ts",
+      "import": "./dist/url/index.js"
+    },
+    "./validation": {
+      "types": "./dist/validation/index.d.ts",
+      "import": "./dist/validation/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "build": "tsc",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "typecheck": "tsc --noEmit",
     "test": "vitest",
-    "test:watch": "vitest --watch"
+    "test:run": "vitest run",
+    "test:watch": "vitest --watch",
+    "pack": "npm pack --dry-run",
+    "release:check": "npm run clean && npm run typecheck && npm run test:run && npm run build && npm run pack",
+    "prepublishOnly": "npm run release:check"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "utility",
+    "utilities",
+    "library",
+    "functions",
+    "helpers"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VibelessYoung/CyrefJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VibelessYoung/CyrefJS/issues"
+  },
+  "homepage": "https://github.com/VibelessYoung/CyrefJS#readme",
+  "engines": {
+    "node": ">=18.18.0"
   },
   "devDependencies": {
     "typescript": "^7.0.2",
