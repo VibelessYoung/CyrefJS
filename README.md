@@ -15,4 +15,4 @@ A modern JavaScript and TypeScript library focused on small, predictable, and re
 ## Installation
 
 ```bash
-npm install cyrefjs
+npm install @cyref/js
