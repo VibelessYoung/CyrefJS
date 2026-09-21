@@ -102,4 +102,4 @@ export {
   setQueryParam,
   removeQueryParam,
 } from "./url/index.js";
-export { isEmail, isURL } from "./validation/index.js";
+export { isEmail, isURL, isStrongPassword } from "./validation/index.js";
