@@ -107,4 +107,5 @@ export {
   isURL,
   isStrongPassword,
   isInteger,
+  isPositive,
 } from "./validation/index.js";
