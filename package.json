@@ -1,6 +1,6 @@
 {
   "name": "@cyref/js",
-  "version": "1.38.3",
+  "version": "1.38.4",
   "description": "A JavaScript and TypeScript library",
   "type": "module",
   "main": "./dist/index.js",
