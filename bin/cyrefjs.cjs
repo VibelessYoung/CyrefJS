@@ -2,7 +2,7 @@
 "use strict";
 
 try {
-  require("../scripts/postinstall.cjs");
+  require("../scripts/banner.cjs");
 } catch (error) {
   console.error("[CYREFJS] Failed to display the banner.");
   console.error(error.message);

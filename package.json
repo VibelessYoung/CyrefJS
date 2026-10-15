@@ -52,7 +52,7 @@
     "dist",
     "bin/cyrefjs.cjs",
     "scripts/postinstall.cjs",
-    "README.md",
+    "scripts/banner.cjs",
     "LICENSE",
     "CHANGELOG.md"
   ],
