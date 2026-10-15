@@ -50,6 +50,7 @@
   },
   "files": [
     "dist",
+    "scripts/postinstall.cjs",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"
@@ -63,7 +64,8 @@
     "test:watch": "vitest --watch",
     "pack": "npm pack --dry-run",
     "release:check": "npm run clean && npm run typecheck && npm run test:run && npm run build && npm run pack",
-    "prepublishOnly": "npm run release:check"
+    "prepublishOnly": "npm run release:check",
+    "postinstall": "node scripts/postinstall.cjs"
   },
   "keywords": [
     "javascript",
